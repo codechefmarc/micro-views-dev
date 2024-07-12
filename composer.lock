@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e7ac991250ed0b7d99dab0ede2d6cf10",
+    "content-hash": "c69dcd5b4d3756205aea50da190d5040",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -121,6 +121,39 @@
                 "source": "https://github.com/Chi-teck/drupal-code-generator/tree/3.6.1"
             },
             "time": "2024-06-06T17:36:37+00:00"
+        },
+        {
+            "name": "codechefmarc/micro_views",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codechefmarc/micro_views.git",
+                "reference": "a780daba106414ad6fabec46000b67855526f8c7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/codechefmarc/micro_views/zipball/a780daba106414ad6fabec46000b67855526f8c7",
+                "reference": "a780daba106414ad6fabec46000b67855526f8c7",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "drupal-module",
+            "authors": [
+                {
+                    "name": "codechefmarc",
+                    "email": "marc@fourkitchens.com"
+                },
+                {
+                    "name": "dblanken-yale",
+                    "email": "david.blankenship@yale.edu"
+                }
+            ],
+            "description": "A simpler Drupal views tool meant for content editors",
+            "support": {
+                "source": "https://github.com/codechefmarc/micro_views/tree/main",
+                "issues": "https://github.com/codechefmarc/micro_views/issues"
+            },
+            "time": "2024-07-12T17:34:53+00:00"
         },
         {
             "name": "composer/installers",
@@ -6871,6 +6904,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "codechefmarc/micro_views": 20,
         "drupal/components": 10
     },
     "prefer-stable": true,

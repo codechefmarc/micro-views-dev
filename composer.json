@@ -12,9 +12,14 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/codechefmarc/micro_views.git"
         }
     ],
     "require": {
+        "codechefmarc/micro_views": "dev-main",
         "composer/installers": "^2.0",
         "cweagans/composer-patches": "^1.7",
         "drupal/admin_toolbar": "^3.4",
